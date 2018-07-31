@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="adscellid" rowHeight="331" id="KGk-i7-Jjw" customClass="AdCell" customModule="TableViewFAN" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="333"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="332.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhB-hf-V4e">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="333"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sponsored" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4K3-H4-SDF">
+                                <rect key="frame" x="8" y="8" width="52" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="UKk-KA-DtI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21G-lZ-46L" customClass="FBAdIconView">
+                                <rect key="frame" x="8" y="28" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.42691766713094148" green="0.45396893307248615" blue="0.91317195595854916" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1RN-8R-orm"/>
+                                    <constraint firstAttribute="width" secondItem="21G-lZ-46L" secondAttribute="height" multiplier="1:1" id="1wV-fn-5dv"/>
+                                    <constraint firstAttribute="width" constant="50" id="euQ-Cc-N5y"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UL4-KC-jhk" customClass="FBAdChoicesView">
+                                <rect key="frame" x="245" y="0.0" width="55" height="17"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="cA8-Mj-f8r"/>
+                                    <constraint firstAttribute="height" constant="17" id="cW2-pU-f9s"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orj-a9-Fmj">
+                                <rect key="frame" x="7" y="295" width="287" height="30"/>
+                                <color key="backgroundColor" red="0.42691766710000001" green="0.45396893310000003" blue="0.91317195600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VDf-2Q-Aey"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                <state key="normal" title="Call To Action">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHu-OZ-tHP">
+                                <rect key="frame" x="66" y="32" width="226" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgS-8e-xjz">
+                                <rect key="frame" x="66" y="57" width="226" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJg-Dw-ick" customClass="FBMediaView">
+                                <rect key="frame" x="7" y="83" width="287" height="161"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="287" id="1xz-75-Fox"/>
+                                    <constraint firstAttribute="height" constant="161" id="qaQ-8H-nQy"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97c-xm-QzD">
+                                <rect key="frame" x="8" y="252" width="286" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Orj-a9-Fmj" secondAttribute="trailing" constant="6" id="42u-re-Kmt"/>
+                            <constraint firstAttribute="trailing" secondItem="fHu-OZ-tHP" secondAttribute="trailing" constant="8" id="5KI-Me-7mA"/>
+                            <constraint firstItem="fHu-OZ-tHP" firstAttribute="top" secondItem="21G-lZ-46L" secondAttribute="top" constant="4" id="6M9-6i-bGi"/>
+                            <constraint firstItem="YgS-8e-xjz" firstAttribute="top" secondItem="fHu-OZ-tHP" secondAttribute="bottom" constant="2" id="8jV-o4-UAl"/>
+                            <constraint firstItem="Orj-a9-Fmj" firstAttribute="leading" secondItem="nhB-hf-V4e" secondAttribute="leading" constant="7" id="CAT-EM-TIX"/>
+                            <constraint firstItem="fHu-OZ-tHP" firstAttribute="leading" secondItem="21G-lZ-46L" secondAttribute="trailing" constant="8" id="F7f-QC-Wyn"/>
+                            <constraint firstItem="4K3-H4-SDF" firstAttribute="leading" secondItem="nhB-hf-V4e" secondAttribute="leading" constant="8" id="G5x-XK-S4d"/>
+                            <constraint firstAttribute="trailing" secondItem="Orj-a9-Fmj" secondAttribute="trailing" constant="6" id="ILS-EA-JPY"/>
+                            <constraint firstAttribute="trailing" secondItem="UL4-KC-jhk" secondAttribute="trailing" id="Jih-qS-1rl"/>
+                            <constraint firstItem="YgS-8e-xjz" firstAttribute="leading" secondItem="21G-lZ-46L" secondAttribute="trailing" constant="8" id="Mhe-eX-aVi"/>
+                            <constraint firstItem="4K3-H4-SDF" firstAttribute="top" secondItem="nhB-hf-V4e" secondAttribute="top" constant="8" id="O6w-Rf-ALJ"/>
+                            <constraint firstItem="97c-xm-QzD" firstAttribute="top" secondItem="dJg-Dw-ick" secondAttribute="bottom" constant="8" id="OiZ-xs-PvE"/>
+                            <constraint firstItem="dJg-Dw-ick" firstAttribute="top" secondItem="21G-lZ-46L" secondAttribute="bottom" constant="5" id="PPl-U3-coo"/>
+                            <constraint firstAttribute="height" constant="333" id="U64-dO-eDi"/>
+                            <constraint firstAttribute="trailing" secondItem="dJg-Dw-ick" secondAttribute="trailing" constant="6" id="Yb7-yz-bZn"/>
+                            <constraint firstItem="dJg-Dw-ick" firstAttribute="leading" secondItem="nhB-hf-V4e" secondAttribute="leading" constant="7" id="Ze4-uA-Lwj"/>
+                            <constraint firstItem="UL4-KC-jhk" firstAttribute="top" secondItem="nhB-hf-V4e" secondAttribute="top" id="aW5-0u-1bP"/>
+                            <constraint firstAttribute="trailing" secondItem="YgS-8e-xjz" secondAttribute="trailing" constant="8" id="afC-vv-yMw"/>
+                            <constraint firstAttribute="trailing" secondItem="97c-xm-QzD" secondAttribute="trailing" constant="6" id="aiV-GD-VW2"/>
+                            <constraint firstItem="21G-lZ-46L" firstAttribute="top" secondItem="4K3-H4-SDF" secondAttribute="bottom" constant="8" id="d2i-eh-I1W"/>
+                            <constraint firstItem="21G-lZ-46L" firstAttribute="leading" secondItem="nhB-hf-V4e" secondAttribute="leading" constant="8" id="hmk-8M-Xsu"/>
+                            <constraint firstItem="Orj-a9-Fmj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="97c-xm-QzD" secondAttribute="bottom" constant="8" id="icV-Ts-Gu7"/>
+                            <constraint firstAttribute="width" constant="300" id="qef-ad-lkZ"/>
+                            <constraint firstItem="97c-xm-QzD" firstAttribute="leading" secondItem="nhB-hf-V4e" secondAttribute="leading" constant="8" id="ssG-za-9s1"/>
+                            <constraint firstAttribute="bottom" secondItem="Orj-a9-Fmj" secondAttribute="bottom" constant="8" id="xXo-QJ-PAV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nhB-hf-V4e" secondAttribute="bottom" constant="-0.5" id="MUa-9b-5a6"/>
+                    <constraint firstItem="nhB-hf-V4e" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="biq-yA-ZZ8"/>
+                    <constraint firstItem="nhB-hf-V4e" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="qrz-js-Bva"/>
+                    <constraint firstItem="nhB-hf-V4e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xeb-Uz-UfV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="adBodyLabel" destination="97c-xm-QzD" id="RBl-XO-YFm"/>
+                <outlet property="adCallToActionButton" destination="Orj-a9-Fmj" id="5LW-4d-qD1"/>
+                <outlet property="adChoicesView" destination="UL4-KC-jhk" id="XCO-e5-ani"/>
+                <outlet property="adCoverMediaView" destination="dJg-Dw-ick" id="0Wm-Hb-5FA"/>
+                <outlet property="adIconImageView" destination="21G-lZ-46L" id="9IY-Xj-h5Q"/>
+                <outlet property="adSocialContext" destination="YgS-8e-xjz" id="24d-YS-qfg"/>
+                <outlet property="adTitleLabel" destination="fHu-OZ-tHP" id="4kL-Iz-N29"/>
+                <outlet property="adplace" destination="nhB-hf-V4e" id="e9y-vY-hHt"/>
+                <outlet property="sponsoredLabel" destination="4K3-H4-SDF" id="WBF-br-5JY"/>
+            </connections>
+            <point key="canvasLocation" x="47.5" y="195.5"/>
+        </tableViewCell>
+    </objects>
+</document>

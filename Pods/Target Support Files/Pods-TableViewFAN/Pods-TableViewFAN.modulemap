@@ -1,0 +1,6 @@
+framework module Pods_TableViewFAN {
+  umbrella header "Pods-TableViewFAN-umbrella.h"
+
+  export *
+  module * { export * }
+}
